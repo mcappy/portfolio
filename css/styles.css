@@ -132,6 +132,8 @@ hr {
 .navbar {
   padding-right: 5%;
   padding-bottom: 4rem;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
 .navbar-toggler {
   margin-top: 5%;
