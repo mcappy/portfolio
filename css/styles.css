@@ -51,6 +51,7 @@ body {
 }
 
 p {
+  font-size: 1.25em;
   color: #A2A4A6;
   text-align: left;
 }
@@ -113,7 +114,7 @@ hr {
 .section-intro {
   width: 65%;
   max-width: 650px;
-  margin: 3rem auto 0;
+  margin: 4rem auto 0;
 }
 
 .main-summary {
@@ -256,12 +257,15 @@ hr {
   margin: 20px 20px;
 }
 
+ a:hover {
+  color: #4F4F4F;
+}
+
 @media screen and (max-width: 1300px) {
 
 
-
   h3, h4 {
-    text-align: center;
+    
   }
 
 
