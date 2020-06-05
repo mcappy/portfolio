@@ -1,0 +1,270 @@
+body {
+  font-family: "SF Pro Display", Helvetica Neue;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  -webkit-font-smoothing: antialiased;
+  color: black;
+}
+
+p {
+  color: #A2A4A6;
+  text-align: left;
+}
+ul {
+  list-style-position: inside;
+}
+h2 {
+  font-weight: bold;
+}
+h3 {
+  font-weight: 500;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+ul {
+  padding: 0;
+}
+h4, li {
+  color: #4F4F4F;
+  font-size: 1.25rem;
+
+
+}
+a {
+  color: inherit;
+}
+
+hr {
+  margin: 3% auto;
+  width: 75%;
+}
+
+/* Title */
+.main-header {
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5%;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  color: inherit;
+}
+/* Containers */
+.container-fluid {
+  padding: 3% 1%;
+  padding-bottom: 7%;
+}
+
+/* Title Section */
+#title {
+  /* background-color: #000839; */
+  background-image: url("../images/space-desktop.jpeg");
+  background-size: cover;
+}
+
+.highlight {
+  color: #00D1FF;
+}
+
+.section-intro {
+  width: 65%;
+  max-width: 650px;
+  margin: 3rem auto 0;
+}
+
+.main-summary {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #E5E5E5;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-right: 3%;
+  padding-bottom: 4rem;
+}
+.navbar-toggler {
+  margin-top: 5%;
+}
+
+.navbar-brand {
+  color: white;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 1rem;
+  font-family: "Moon 2.0";
+  font-weight: 100;
+  font-size: 3.5rem;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.navbar-collapse {
+  margin-top: 2%;
+}
+
+.nav-item {
+  margin-left: auto;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: #E5E5E5;
+}
+
+/* Scroll Vector */
+.scroll-down-cue {
+  margin-top: 100px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  animation: fade 5s linear;
+  animation-iteration-count:infinite;
+}
+
+.scroll-down-cue a {
+  width: 70px;
+  height: 30px;
+  position: relative;
+  margin: 0 auto;
+  filter: alpha(opacity=60);
+}
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+/* About Me Section */
+
+#about {
+  background-color: #E5E5E5;
+  color: #000839;
+  text-align: center;
+}
+
+.about {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.about-text {
+  margin: auto;
+  color: #4F4F4F;
+  width: 65%;
+}
+
+.download {
+  margin-top: 2rem;
+}
+
+
+.col-lg-6 {
+  text-align: left;
+  padding: 0 15%;
+}
+.progress {
+  margin-bottom: 4%;
+  width: 300px;
+}
+
+.skill-progress {
+  display: inline-block;
+  margin: 0 auto;
+
+  text-align: left;
+}
+
+
+/* Projects Section */
+
+#projects {
+  margin: 0 auto;
+  color: #E5E5E5;
+  background-color: #060C32;
+}
+
+#projects .col-lg-6 {
+  padding: 0 5% 7%;
+}
+
+.img-col {
+  text-align: center !important;
+}
+.tower-img {
+  width: 65%;
+  height: 100%;
+}
+
+.img-fluid {
+  max-width: 60%;
+}
+.carousel-inner img {
+  margin: auto;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  background-color: #556E53;
+}
+.social-icon {
+  font-size: 2rem;
+  margin: 20px 20px;
+}
+
+
+@media screen and (max-width: 712px) {
+  body {
+    font-size: 1rem;
+  }
+
+  #title {
+    background-image: url("../images/space-mobile.jpg");
+  }
+
+  h3, h4 {
+    text-align: center;
+  }
+
+  /* Title Section */
+  .scroll-down-cue img{
+    width: 10%;
+  }
+  .main-header {
+    font-size: 2rem;
+  }
+
+  .navbar-brand {
+    top: 0;
+    left: 0;
+  }
+
+  .section-intro {
+    margin-top: 2rem;
+    width: 100%;
+    min-width: inherit;
+  }
+
+  .main-summary {
+    padding-left: 5%;
+    font-size: 1.5rem;
+  }
+
+/* About Section */
+  .about-text {
+    width: 85%;
+  }
+
+  /* Project Section */
+  #projects .col-lg-6 {
+    padding: 0 5% 7%;
+    text-align: center;
+  }
+
+  /* Footer */
+  .social-icon {
+    font-size: 1.5rem;
+    margin: 20px 10px;
+  }
+
+}
