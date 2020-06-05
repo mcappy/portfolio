@@ -38,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
         </div>
@@ -123,25 +123,30 @@
       <h1 class="main-header">Projects</h1>
       <div class="row">
         <div class="col-lg-6">
-          <h3>TOWER</h3>
-          <p>TOWER is an Android app that I developed with three other Hofstra students, and it is the first mobile app that I have ever worked on. The goal was simple: develop a better way for students to get rid of their used books.</p>
-          <br>
-          <p>With the help of the Google Books API, users could upload their used books to our app while Google would assist in providing the cover image and book descriptions.</p>
-          <br>
-          <p>The name “TOWER” comes from the huge stack of used textbooks that we were stuck with at the end of a semester.</p>
+          <div class="project-description">
+            <h3>TOWER</h3>
+            <p>TOWER is an Android app that I developed with three other Hofstra students, and it is the first mobile app that I have ever worked on. The goal was simple: develop a better way for students to get rid of their used books.</p>
+            <br>
+            <p>With the help of the Google Books API, users could upload their used books to our app while Google would assist in providing the cover image and book descriptions.</p>
+            <br>
+            <p>The name “TOWER” comes from the huge stack of used textbooks that we were stuck with at the end of a semester.</p>
+          </div>
           <a href="https://github.com/mcappy/TOWER" target="_blank" class="btn btn-primary download learn-btn">Learn More</a>
         </div>
         <div class="col-lg-6 img-col">
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="10000" data-pause="hover">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="img-fluid d-block w-75" src="images/Home.png" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="img-fluid d-block w-100" src="images/Home.png" alt="Second slide">
+                <img class="img-fluid d-block w-100" src="images/Search.png" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="img-fluid d-block w-100" src="images/Home.png" alt="Third slide">
+                <img class="img-fluid d-block w-100" src="images/SpecificTextbook.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid d-block w-100" src="images/Login.png" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -158,7 +163,7 @@
     </div>
   </section>
 
-  <footer class="footer">
+  <footer id="footer">
     <a href="https://twitter.com/mikecappeller"><i class="social-icon fab fa-twitter"></i></a>
     <a href="https://www.instagram.com/mikecappeller/"><i class="social-icon fab fa-instagram"></i></a>
     <a href="https://www.linkedin.com/in/michael-cappeller-b43ba2149/"><i class="social-icon fab fa-linkedin"></i></a>
