@@ -55,7 +55,7 @@ body {
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 1.5rem;
   color: #A2A4A6;
   text-align: left;
 }
@@ -68,8 +68,7 @@ h2 {
 h3 {
   font-weight: 500;
   text-align: left;
-  margin-top: 5%;
-  margin-bottom: 7%;
+  margin-bottom: 3%;
 }
 ul {
   padding: 0;
@@ -92,7 +91,7 @@ hr {
 /* Title */
 .main-header {
   letter-spacing: 0.05em;
-  margin-bottom: 1.5%;
+  margin-bottom: 3%;
   font-size: 3rem;
   text-align: center;
   font-weight: bold;
@@ -209,6 +208,7 @@ hr {
 
 
 .col-lg-6 {
+  margin: 5% auto;
   text-align: left;
   padding: 0 15%;
 }
@@ -289,6 +289,10 @@ hr {
     text-align: center;
   }
 
+  p {
+    font-size: 1.25rem;
+  }
+
   h2 {
     font-size: 1.5rem;
   }
@@ -310,6 +314,7 @@ hr {
 
   /* Title Section */
   .main-header {
+    margin: 3% auto;
     font-size: 2rem;
   }
 
