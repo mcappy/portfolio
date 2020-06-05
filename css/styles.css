@@ -1,3 +1,8 @@
+@@font-face {
+  font-family: "Moon 2.0";
+  src: url("../fonts/Moon2.0-Light.otf");
+}
+
 body {
   font-family: "SF Pro Display", Helvetica Neue;
   font-size: 1.5rem;
