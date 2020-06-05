@@ -209,7 +209,6 @@ hr {
 }
 .progress {
   margin-bottom: 4%;
-  
 }
 
 .skill-progress {
@@ -290,7 +289,7 @@ hr {
     font-size: 1.25rem;
   }
 
-  h4 {
+  h4, li{
     font-size: 1rem;
   }
   #title {
