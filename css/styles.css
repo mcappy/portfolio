@@ -39,6 +39,7 @@ html,body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    padding: env(safe-area-inset);
     overflow-x: hidden;
 }
 
