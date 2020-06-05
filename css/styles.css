@@ -258,7 +258,7 @@ hr {
 }
 
 
-@media screen and (max-width: 712px) {
+@media screen and (max-width: 1300px) {
   body {
     font-size: 1rem;
   }
