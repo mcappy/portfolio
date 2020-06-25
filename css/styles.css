@@ -34,39 +34,24 @@
   font-style: normal;
 }
 
-html {
-  margin: env(safe-area-inset);
-  padding: env(safe-area-inset);
-}
 
 html, body {
   width: 100%;
   height: 100%;
+  line-height: 1.25;
   margin: 0;
   box-sizing: border-box;
-  padding: env(safe-area-inset);
   overflow-x: hidden;
-}
-
-body {
   font-family: "SF Pro Display", "Helvetica Neue", sans-serif;
   letter-spacing: 0.05rem;
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2{
-  font-weight: bold;
-}
 
-h3 {
-  font-weight: 500;
-  text-align: left;
-  margin-bottom: 3%;
-}
+
 
 h4, li {
   color: #4F4F4F;
-  font-size: 1.25rem;
 }
 
 li {
@@ -74,9 +59,8 @@ li {
 }
 
 p {
-  font-size: 1.5rem;
   color: #A2A4A6;
-  text-align: left;
+
 }
 
 ul {
@@ -94,12 +78,23 @@ hr {
 }
 
 /* Headers */
-.main-header {
+.big-text {
   margin-bottom: 3%;
   font-size: 3rem;
   text-align: center;
   font-weight: bold;
   color: inherit;
+}
+
+.medium-text {
+  font-size: 2rem;
+  font-weight: 500;
+
+}
+
+.small-text {
+  margin: 1rem 0;
+  font-size: 1.5rem;
 }
 
 /* Containers */
@@ -126,7 +121,6 @@ hr {
 
 .main-summary {
   text-align: left;
-  font-size: 2rem;
   line-height: 1.25;
   font-weight: 500;
   color: #E5E5E5;
@@ -207,6 +201,7 @@ hr {
 }
 
 .about-text {
+  text-align: left;
   margin: auto;
   color: #4F4F4F;
   width: 65%;
@@ -218,7 +213,6 @@ hr {
 
 .col-lg-6 {
   margin: 5% auto;
-  text-align: left;
   padding: 0 15%;
 }
 
@@ -246,13 +240,8 @@ hr {
   text-align: center
 }
 
-.tower-img {
-  width: 65%;
-  height: 100%;
-}
-
 .img-fluid {
-  max-width: 60%;
+  max-width: 40%;
 }
 
 .carousel-inner img {
@@ -267,7 +256,6 @@ hr {
 
 .social-icon {
   color: black;
-  font-size: 2rem;
   margin: 20px 20px;
 }
 
@@ -288,33 +276,37 @@ a:hover {
   body {
     font-size: 1rem;
     text-align: center;
+    line-height: 1.5;
   }
 
-  h1, h2, h3, h4, p {
-    text-align: center;
+  /* Font Sizes */
+  .big-text {
+    margin-bottom: 3%;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: inherit;
   }
 
-  h3, p {
+  .medium-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .small-text {
     font-size: 1.25rem;
   }
 
-  h2 {
-    font-size: 1.5rem;
+  ul.small-text {
+    text-align: left;
   }
 
-  h4, li {
-    font-size: 1rem;
-  }
+
 
   #title {
     background-image: url("../images/space-mobile.jpg");
   }
 
   /* Title Section */
-  .main-header {
-    margin: 3% auto;
-    font-size: 2rem;
-  }
 
   .navbar-brand {
     top: 0;
@@ -329,7 +321,7 @@ a:hover {
 
   .main-summary {
     padding-left: 5%;
-    font-size: 1.5rem;
+    font-weight: 500;
   }
 
   .scroll-down-cue {
@@ -338,6 +330,7 @@ a:hover {
 
   /* About Section */
   .about-text {
+    text-align: center;
     width: 85%;
   }
 
@@ -348,6 +341,10 @@ a:hover {
     text-align: center;
   }
 
+  .img-fluid {
+    max-width: 60%;
+  }
+
   .project-description {
     margin: auto;
     width: 85%;
@@ -355,7 +352,6 @@ a:hover {
 
   /* Footer */
   .social-icon {
-    font-size: 1.5rem;
     margin: 20px 10px;
   }
 }
