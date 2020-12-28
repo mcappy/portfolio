@@ -105,7 +105,8 @@ hr {
 
 /* Title Section */
 #title {
-  background-image: url("../images/space-desktop.jpeg");
+  background-color: #000d1a;
+  /* background-image: url("../images/space-desktop.jpeg"); */
   background-size: cover;
 }
 
@@ -201,10 +202,10 @@ hr {
 }
 
 .about-text {
-  text-align: left;
+  text-align: justify ;
   margin: auto;
   color: #4F4F4F;
-  width: 50%;
+  width: 40%;
 }
 
 .download {
@@ -213,10 +214,11 @@ hr {
 
 .col-lg-6 {
   margin: 5% auto;
-  padding: 0 15%;
+  padding: 0 10%;
 }
 
 .progress {
+  background-color: white;
   margin-bottom: 4%;
 }
 
@@ -229,11 +231,11 @@ hr {
 #projects {
   margin: 0 auto;
   color: #E5E5E5;
-  background-color: #060C32;
+  background-color: black;
 }
 
 #projects .col-lg-6 {
-  padding: 0 5% 7%;
+  padding: 0 8% 7%;
 }
 
 .img-col {
